@@ -9,8 +9,9 @@
 
 // Need to link with Ws2_32.lib
 #pragma comment(lib, "ws2_32.lib")
+typedef enum SOCKET_TYPE {IPV4 = AF_INET, IPV6 = AF_INET6, TCP = SOCK_STREAM, UPD = SOCK_DGRAM };
 
-
+template <typename SOCKET_TYPE>
 class BMSocket
 {
 	/// <summary>
@@ -33,6 +34,10 @@ class BMSocket
 	public:
 		BMSocket();
 		~BMSocket();
+
+		void CloseThisSocket();
+
+
 
 };
 
