@@ -20,10 +20,19 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\headers\macros.h">
+    <ClInclude Include="..\..\headers\utils.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\headers\NetworkPlatformCheck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\headers\SocketAddress.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\headers\SocketAddressFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\headers\macros.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -24,6 +24,9 @@
   <ItemGroup>
     <ClInclude Include="..\..\headers\macros.h" />
     <ClInclude Include="..\..\headers\NetworkPlatformCheck.h" />
+    <ClInclude Include="..\..\headers\SocketAddress.h" />
+    <ClInclude Include="..\..\headers\SocketAddressFactory.h" />
+    <ClInclude Include="..\..\headers\utils.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

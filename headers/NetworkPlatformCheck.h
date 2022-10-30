@@ -4,6 +4,8 @@
 	//define something for Windows (32-bit and 64-bit, this part is common)
 	#include <WinSock2.h>
 	#include <WS2tcpip.h>
+	// We need to provide the symbols for the functions to the linker while linking.
+	#pragma comment(lib,"WS2_32")
 	#ifdef _WIN64
    //define something for Windows (64-bit only)
 	#else
